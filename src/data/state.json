@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": "1.1",
-    "lastUpdated": "2026-03-01T04:27:00-07:00",
-    "updatedBy": "AGT-000 Dominus Sui"
+    "lastUpdated": "2026-03-01T04:29:58-07:00",
+    "updatedBy": "AGT-000 Dominus Sui (auto)"
   },
   "principal": {
     "name": "Brandon Sandoval",
@@ -49,7 +49,7 @@
     ],
     "models": [
       { "name": "Qwen 2.5 72B", "size": "47GB", "machine": "Praxis", "status": "ready" },
-      { "name": "Llama 3.1 70B", "size": "42GB", "machine": "Praxis", "status": "fine-tuning" }
+      { "name": "Llama 3.1 70B", "size": "42GB", "machine": "Praxis", "status": "ready", "adapter": "brandon-voice-adapter-70b" }
     ],
     "roadmap": {
       "phase1": "Mac mini x2 — content engine + trading engine (~$1,200)",
@@ -268,7 +268,7 @@
       "status": "active",
       "machine": "Mini (192.168.0.61)",
       "channel": "telegram + discord",
-      "lastActive": "2026-03-01T04:27:00-07:00",
+      "lastActive": "2026-03-01T04:29:58-07:00",
       "owns": ["Strategy", "Memory", "Crons", "Task dispatch to Praxis"]
     },
     {
