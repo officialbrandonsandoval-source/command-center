@@ -34,7 +34,7 @@
         "chip": "M4 Mac mini",
         "ram": "16GB",
         "ip": "192.168.0.61",
-        "role": "Command hub — strategy, crons, Telegram, Discord",
+        "role": "Command hub \u2014 strategy, crons, Telegram, Discord",
         "status": "online"
       },
       {
@@ -43,19 +43,30 @@
         "chip": "M3 Ultra Mac Studio",
         "ram": "96GB",
         "ip": "192.168.0.23",
-        "role": "Primary builder — Qwen 72B, Llama 70B, local inference",
+        "role": "Primary builder \u2014 Qwen 72B, Llama 70B, local inference",
         "status": "online"
       }
     ],
     "models": [
-      { "name": "Qwen 2.5 72B", "size": "47GB", "machine": "Praxis", "status": "ready" },
-      { "name": "Llama 3.1 70B", "size": "42GB", "machine": "Praxis", "status": "ready", "adapter": "brandon-voice-adapter-70b" }
+      {
+        "name": "Qwen 2.5 72B",
+        "size": "47GB",
+        "machine": "Praxis",
+        "status": "ready"
+      },
+      {
+        "name": "Llama 3.1 70B",
+        "size": "42GB",
+        "machine": "Praxis",
+        "status": "ready",
+        "adapter": "brandon-voice-adapter-70b"
+      }
     ],
     "roadmap": {
-      "phase1": "Mac mini x2 — content engine + trading engine (~$1,200)",
-      "phase2": "Mac mini x3 — client deployments, PONS dev, backup (~$1,800)",
-      "phase3": "Mac Studio 512GB M3 Ultra — Opus, 405B reasoning engine ($10,880)",
-      "phase4": "M5 Ultra when released — upgrade Praxis, sell 96GB"
+      "phase1": "Mac mini x2 \u2014 content engine + trading engine (~$1,200)",
+      "phase2": "Mac mini x3 \u2014 client deployments, PONS dev, backup (~$1,800)",
+      "phase3": "Mac Studio 512GB M3 Ultra \u2014 Opus, 405B reasoning engine ($10,880)",
+      "phase4": "M5 Ultra when released \u2014 upgrade Praxis, sell 96GB"
     }
   },
   "threeLayerThesis": {
@@ -80,17 +91,17 @@
       "status": "building",
       "progress": 55,
       "built": [
-        "OpenClaw multi-agent setup — 2 machines",
-        "SSH tunnel Dominus ↔ Praxis (bidirectional)",
+        "OpenClaw multi-agent setup \u2014 2 machines",
+        "SSH tunnel Dominus \u2194 Praxis (bidirectional)",
         "PRAXIS_QUEUE.md task protocol",
-        "Agent registry — 17 agents",
+        "Agent registry \u2014 17 agents",
         "Local Qwen 72B inference via SSH",
-        "TASK-006 queued — OpenClaw peer PR"
+        "TASK-006 queued \u2014 OpenClaw peer PR"
       ],
       "next": [
         "OpenClaw peer-to-peer PR (TASK-006)",
         "Deploy Lex (AGT-016)",
-        "Phase 1 hardware — 2 more minis"
+        "Phase 1 hardware \u2014 2 more minis"
       ],
       "curriculumDay": "Tuesday/Thursday/Saturday"
     },
@@ -117,37 +128,65 @@
   "projects": [
     {
       "id": "PONS",
-      "name": "PONS — Shiftly Build (FROZEN post-delivery)",
-      "description": "90-day funded build for Ethan/Shiftly. Standard model, Twilio BDC, speed-to-lead. Delivers May 30. FROZEN after delivery — not a dealership AI product anymore.",
+      "name": "PONS \u2014 Shiftly Build (FROZEN post-delivery)",
+      "description": "90-day funded build for Ethan/Shiftly. Standard model, Twilio BDC, speed-to-lead. Delivers May 30. FROZEN after delivery \u2014 not a dealership AI product anymore.",
       "status": "funded-pre-build",
       "priority": 1,
-      "layer": ["layer2"],
+      "layer": [
+        "layer2"
+      ],
       "owner": "AGT-000",
       "mrrPotential": 0,
       "note": "STRATEGIC PIVOT Mar 1: PONS frozen after Shiftly delivery. Not being marketed or developed beyond contract.",
       "fundedBy": "Shiftly Auto retainer ($18K / 90 days)",
       "blockers": [
-        "IP carve-out addendum not yet signed — MUST happen before first line of code",
+        "IP carve-out addendum not yet signed \u2014 MUST happen before first line of code",
         "$9K deposit wire pending"
       ],
       "milestones": [
-        { "name": "IP carve-out signed", "status": "pending", "due": "2026-03-02" },
-        { "name": "$9K deposit received", "status": "pending", "due": "2026-03-02" },
-        { "name": "Architecture spec v1", "status": "not-started", "due": "2026-03-07" },
-        { "name": "Prototype — speed-to-lead", "status": "not-started", "due": "2026-03-21" },
-        { "name": "Demo to Ethan", "status": "not-started", "due": "2026-04-01" },
-        { "name": "Delivery + $9K final payment", "status": "not-started", "due": "2026-05-30" }
+        {
+          "name": "IP carve-out signed",
+          "status": "pending",
+          "due": "2026-03-02"
+        },
+        {
+          "name": "$9K deposit received",
+          "status": "pending",
+          "due": "2026-03-02"
+        },
+        {
+          "name": "Architecture spec v1",
+          "status": "not-started",
+          "due": "2026-03-07"
+        },
+        {
+          "name": "Prototype \u2014 speed-to-lead",
+          "status": "not-started",
+          "due": "2026-03-21"
+        },
+        {
+          "name": "Demo to Ethan",
+          "status": "not-started",
+          "due": "2026-04-01"
+        },
+        {
+          "name": "Delivery + $9K final payment",
+          "status": "not-started",
+          "due": "2026-05-30"
+        }
       ],
       "url": null,
       "lastUpdated": "2026-03-01"
     },
     {
       "id": "OPERAXON",
-      "name": "Operaxon — Done-for-You AI OS",
+      "name": "Operaxon \u2014 Done-for-You AI OS",
       "description": "Mac mini + OpenClaw + Claude. AI operating systems for any business. Priority #1. Target $15K MRR by month 3.",
       "status": "active-pilots",
       "priority": 2,
-      "layer": ["layer2"],
+      "layer": [
+        "layer2"
+      ],
       "owner": "AGT-000",
       "mrrPotential": 15000,
       "currentMRR": 0,
@@ -158,43 +197,89 @@
         "onPremise": "$1,997 setup + $1,997/mo (air-gapped)"
       },
       "pilots": [
-        { "name": "Ryan Sawall (Shiftly COO)", "day": 9, "totalDays": 30, "status": "active" },
-        { "name": "Logan Satkowski (Shiftly Ads CEO)", "day": 3, "totalDays": 30, "status": "active" }
+        {
+          "name": "Ryan Sawall (Shiftly COO)",
+          "day": 9,
+          "totalDays": 30,
+          "status": "active"
+        },
+        {
+          "name": "Logan Satkowski (Shiftly Ads CEO)",
+          "day": 3,
+          "totalDays": 30,
+          "status": "active"
+        }
       ],
       "milestones": [
-        { "name": "Ryan pilot live", "status": "done", "due": "2026-02-21" },
-        { "name": "First paid client ($997/mo)", "status": "pending", "due": "2026-03-15" },
-        { "name": "3 paid clients ($15K MRR)", "status": "not-started", "due": "2026-03-31" },
-        { "name": "On-Premise tier launched", "status": "not-started", "due": "2026-04-01" }
+        {
+          "name": "Ryan pilot live",
+          "status": "done",
+          "due": "2026-02-21"
+        },
+        {
+          "name": "First paid client ($997/mo)",
+          "status": "pending",
+          "due": "2026-03-15"
+        },
+        {
+          "name": "3 paid clients ($15K MRR)",
+          "status": "not-started",
+          "due": "2026-03-31"
+        },
+        {
+          "name": "On-Premise tier launched",
+          "status": "not-started",
+          "due": "2026-04-01"
+        }
       ],
       "url": "https://operaxon.com",
       "lastUpdated": "2026-03-01"
     },
     {
       "id": "TRADING_ENGINE",
-      "name": "Trading Engine — Ryan Partnership",
+      "name": "Trading Engine \u2014 Ryan Partnership",
       "description": "AI-powered day trading engine. Built with Ryan Sawall. First live run Sunday Mar 1 5PM MST. Iran strike = extreme volatility. Split profits when proven.",
       "status": "active",
       "priority": 3,
-      "layer": ["layer1"],
+      "layer": [
+        "layer1"
+      ],
       "owner": "AGT-000",
       "mrrPotential": 0,
       "note": "Revenue = profit split with Ryan. Not MRR. Passive income layer.",
       "milestones": [
-        { "name": "Engine built", "status": "done", "due": "2026-02-28" },
-        { "name": "First live run", "status": "pending", "due": "2026-03-01" },
-        { "name": "Fund Ryan's account", "status": "not-started", "due": "2026-03-15" },
-        { "name": "Consistent monthly profit", "status": "not-started", "due": "2026-04-01" }
+        {
+          "name": "Engine built",
+          "status": "done",
+          "due": "2026-02-28"
+        },
+        {
+          "name": "First live run",
+          "status": "pending",
+          "due": "2026-03-01"
+        },
+        {
+          "name": "Fund Ryan's account",
+          "status": "not-started",
+          "due": "2026-03-15"
+        },
+        {
+          "name": "Consistent monthly profit",
+          "status": "not-started",
+          "due": "2026-04-01"
+        }
       ],
       "lastUpdated": "2026-03-01"
     },
     {
       "id": "CONTENT_ENGINE",
-      "name": "Content Engine — Sovereign Builder Brand",
+      "name": "Content Engine \u2014 Sovereign Builder Brand",
       "description": "Brandon is the face. AI is the vehicle. Become the most sought-after builder in tech + AI. All platforms. Unsupervised podcast.",
       "status": "active",
       "priority": 4,
-      "layer": ["layer3"],
+      "layer": [
+        "layer3"
+      ],
       "owner": "AGT-000",
       "tagline": "I don't work for the system. I built one that works for me.",
       "followers": {
@@ -206,26 +291,60 @@
         "linkedin": 1
       },
       "milestones": [
-        { "name": "First YouTube video", "status": "pending", "due": "2026-03-01" },
-        { "name": "Twitter: 1,000 followers", "status": "not-started", "due": "2026-04-01" },
-        { "name": "TikTok: 5,000 followers", "status": "not-started", "due": "2026-04-01" },
-        { "name": "Podcast Ep 1 live", "status": "done", "due": "2026-02-22" }
+        {
+          "name": "First YouTube video",
+          "status": "pending",
+          "due": "2026-03-01"
+        },
+        {
+          "name": "Twitter: 1,000 followers",
+          "status": "not-started",
+          "due": "2026-04-01"
+        },
+        {
+          "name": "TikTok: 5,000 followers",
+          "status": "not-started",
+          "due": "2026-04-01"
+        },
+        {
+          "name": "Podcast Ep 1 live",
+          "status": "done",
+          "due": "2026-02-22"
+        }
       ],
       "lastUpdated": "2026-03-01"
     },
     {
       "id": "FINE_TUNE",
-      "name": "Brandon Voice Model — 70B Fine-Tune",
+      "name": "Brandon Voice Model \u2014 70B Fine-Tune",
       "description": "Llama 3.1 70B fine-tuned on Brandon's voice and philosophy. 261 training pairs. Running overnight on Praxis.",
       "status": "active",
       "priority": 5,
-      "layer": ["layer1"],
+      "layer": [
+        "layer1"
+      ],
       "owner": "AGT-015",
       "milestones": [
-        { "name": "Training data prepared (261 pairs)", "status": "done", "due": "2026-02-24" },
-        { "name": "70B fine-tune running on Ultra", "status": "done", "due": "2026-03-01" },
-        { "name": "Adapter saved + tested", "status": "done", "due": "2026-03-01" },
-        { "name": "Integrated into content pipeline", "status": "not-started", "due": "2026-03-07" }
+        {
+          "name": "Training data prepared (261 pairs)",
+          "status": "done",
+          "due": "2026-02-24"
+        },
+        {
+          "name": "70B fine-tune running on Ultra",
+          "status": "done",
+          "due": "2026-03-01"
+        },
+        {
+          "name": "Adapter saved + tested",
+          "status": "done",
+          "due": "2026-03-01"
+        },
+        {
+          "name": "Integrated into content pipeline",
+          "status": "not-started",
+          "due": "2026-03-07"
+        }
       ],
       "lastUpdated": "2026-03-01"
     },
@@ -235,27 +354,55 @@
       "description": "Build native agent-to-agent communication for OpenClaw. Submit as open source PR. Nobody has built this yet.",
       "status": "building",
       "priority": 6,
-      "layer": ["layer2"],
+      "layer": [
+        "layer2"
+      ],
       "owner": "AGT-015",
       "milestones": [
-        { "name": "Prototype built + tested Dominus ↔ Praxis", "status": "in-progress", "due": "2026-03-07" },
-        { "name": "PR submitted to openclaw/openclaw", "status": "not-started", "due": "2026-03-14" },
-        { "name": "Merged", "status": "not-started", "due": "2026-03-21" }
+        {
+          "name": "Prototype built + tested Dominus \u2194 Praxis",
+          "status": "in-progress",
+          "due": "2026-03-07"
+        },
+        {
+          "name": "PR submitted to openclaw/openclaw",
+          "status": "not-started",
+          "due": "2026-03-14"
+        },
+        {
+          "name": "Merged",
+          "status": "not-started",
+          "due": "2026-03-21"
+        }
       ],
       "lastUpdated": "2026-03-01"
     },
     {
       "id": "AGENTID",
-      "name": "AgentID — Verified Agent Registry",
+      "name": "AgentID \u2014 Verified Agent Registry",
       "description": "Trust layer for the agentic economy. Open standard for verified AI agent identity.",
       "status": "live-pre-launch",
       "priority": 7,
-      "layer": ["layer3"],
+      "layer": [
+        "layer3"
+      ],
       "owner": "AGT-000",
       "milestones": [
-        { "name": "MVP built and deployed", "status": "done", "due": "2026-02-25" },
-        { "name": "Launch thread posted", "status": "pending", "due": "2026-03-07" },
-        { "name": "10 founding agents registered", "status": "not-started", "due": "2026-03-14" }
+        {
+          "name": "MVP built and deployed",
+          "status": "done",
+          "due": "2026-02-25"
+        },
+        {
+          "name": "Launch thread posted",
+          "status": "pending",
+          "due": "2026-03-07"
+        },
+        {
+          "name": "10 founding agents registered",
+          "status": "not-started",
+          "due": "2026-03-14"
+        }
       ],
       "url": "https://agentid-omega.vercel.app",
       "lastUpdated": "2026-03-01"
@@ -270,7 +417,12 @@
       "machine": "Mini (192.168.0.61)",
       "channel": "telegram + discord",
       "lastActive": "2026-03-01T11:29:58-07:00",
-      "owns": ["Strategy", "Memory", "Crons", "Task dispatch to Praxis"]
+      "owns": [
+        "Strategy",
+        "Memory",
+        "Crons",
+        "Task dispatch to Praxis"
+      ]
     },
     {
       "id": "AGT-015",
@@ -280,7 +432,13 @@
       "machine": "Ultra (192.168.0.23)",
       "channel": "telegram + discord",
       "lastActive": "2026-03-01T02:22:00-07:00",
-      "owns": ["All builds", "Local inference", "Fine-tuning", "Content pipeline", "Image gen"]
+      "owns": [
+        "All builds",
+        "Local inference",
+        "Fine-tuning",
+        "Content pipeline",
+        "Image gen"
+      ]
     },
     {
       "id": "AGT-016",
@@ -290,7 +448,11 @@
       "machine": "Ultra (via Qwen 72B)",
       "channel": "ssh",
       "lastActive": "2026-03-01T02:22:00-07:00",
-      "owns": ["Contract review", "IP monitoring", "Legal flags"]
+      "owns": [
+        "Contract review",
+        "IP monitoring",
+        "Legal flags"
+      ]
     },
     {
       "id": "AGT-017",
@@ -299,7 +461,12 @@
       "status": "active",
       "schedule": "8 AM, 2 PM, 8 PM MST daily",
       "cronId": "424b3da5-4294-44d2-baf6-3667bebbb728",
-      "owns": ["Model releases", "Hardware news", "AI tool discoveries", "Ollama updates"]
+      "owns": [
+        "Model releases",
+        "Hardware news",
+        "AI tool discoveries",
+        "Ollama updates"
+      ]
     },
     {
       "id": "AGT-008",
@@ -308,7 +475,11 @@
       "status": "active",
       "schedule": "11:45 PM MST daily",
       "cronId": "40534662",
-      "owns": ["Memory consistency", "Agent compliance", "Drift detection"]
+      "owns": [
+        "Memory consistency",
+        "Agent compliance",
+        "Drift detection"
+      ]
     },
     {
       "id": "AGT-009",
@@ -317,7 +488,11 @@
       "status": "active",
       "schedule": "7:30 AM MST daily",
       "cronId": "6b326103",
-      "owns": ["MRR tracking", "Pipeline health", "Revenue reports"]
+      "owns": [
+        "MRR tracking",
+        "Pipeline health",
+        "Revenue reports"
+      ]
     },
     {
       "id": "AGT-011",
@@ -326,7 +501,11 @@
       "status": "active",
       "schedule": "3 AM MST daily",
       "cronId": "b2b7bf00-3d98-4f85-b386-ab5c441b6863",
-      "owns": ["GitHub repos", "Build status", "Ship blockers"]
+      "owns": [
+        "GitHub repos",
+        "Build status",
+        "Ship blockers"
+      ]
     },
     {
       "id": "AGT-013",
@@ -335,7 +514,11 @@
       "status": "active",
       "schedule": "7 AM MST daily",
       "cronId": "d43129a2-31f7-4570-897b-38b415e145bf",
-      "owns": ["30-day calendar", "Daily posts", "Cross-platform"]
+      "owns": [
+        "30-day calendar",
+        "Daily posts",
+        "Cross-platform"
+      ]
     },
     {
       "id": "AGT-014",
@@ -344,7 +527,11 @@
       "status": "active",
       "schedule": "11 AM MST daily",
       "cronId": "8b02be73-a6e2-4a00-8e2f-7b28e211f744",
-      "owns": ["Prospect outreach", "CRM", "Pilot check-ins"]
+      "owns": [
+        "Prospect outreach",
+        "CRM",
+        "Pilot check-ins"
+      ]
     }
   ],
   "legalAdmin": {
@@ -370,6 +557,10 @@
       "deposit": 9000,
       "depositStatus": "pending-wire",
       "deliveryDate": "2026-05-30"
+    },
+    "businessChecking": {
+      "status": "pending",
+      "note": "Open after DBA is filed"
     }
   }
 }
