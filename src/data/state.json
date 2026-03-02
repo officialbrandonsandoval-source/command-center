@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": "1.1",
-    "lastUpdated": "2026-03-02T01:57:00-07:00",
-    "updatedBy": "AGT-000 Dominus Sui (auto)"
+    "lastUpdated": "2026-03-02T02:27:00-07:00",
+    "updatedBy": "AGT-000 Dominus Sui"
   },
   "principal": {
     "name": "Brandon Sandoval",
@@ -137,8 +137,8 @@
       ],
       "owner": "AGT-000",
       "mrrPotential": 0,
-      "note": "STRATEGIC PIVOT Mar 1: PONS frozen after Shiftly delivery. Not being marketed or developed beyond contract.",
-      "fundedBy": "Shiftly Auto retainer ($18K / 90 days)",
+      "note": "STRATEGIC PIVOT Mar 1: PONS frozen after Shiftly delivery. TARGET UPDATED Mar 2: $50K total ($25K on signing). Full scope: PONS agent layer $15K + CSM Dashboard $5K + Ads Dashboard Phase 1 $10K + iOS app $10K + white-label Phase 2 $10K. Meeting with Ethan 9 AM March 2 — let him paint the vision first.",
+      "fundedBy": "Shiftly Auto retainer (target: $50K / 90 days)",
       "blockers": [
         "IP carve-out addendum not yet signed \u2014 MUST happen before first line of code",
         "$9K deposit wire pending"
@@ -199,7 +199,7 @@
       "pilots": [
         {
           "name": "Ryan Sawall (Shiftly COO)",
-          "day": 10,
+          "day": 4,
           "totalDays": 30,
           "status": "active"
         },
@@ -208,13 +208,24 @@
           "day": 4,
           "totalDays": 30,
           "status": "active"
+        },
+        {
+          "name": "Ethan Satkowski (Shiftly CEO)",
+          "day": 0,
+          "totalDays": 30,
+          "status": "pending-setup"
         }
       ],
       "milestones": [
         {
+          "name": "Logan pilot live",
+          "status": "done",
+          "due": "2026-02-27"
+        },
+        {
           "name": "Ryan pilot live",
           "status": "done",
-          "due": "2026-02-21"
+          "due": "2026-02-27"
         },
         {
           "name": "First paid client ($997/mo)",
@@ -416,7 +427,7 @@
       "status": "active",
       "machine": "Mini (192.168.0.61)",
       "channel": "telegram + discord",
-      "lastActive": "2026-03-02T01:57:00-07:00",
+      "lastActive": "2026-03-02T02:27:00-07:00",
       "owns": [
         "Strategy",
         "Memory",
