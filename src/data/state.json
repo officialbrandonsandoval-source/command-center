@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": "1.1",
-    "lastUpdated": "2026-03-01T21:57:00-07:00",
-    "updatedBy": "AGT-000 Dominus Sui (auto)"
+    "lastUpdated": "2026-03-01T22:27:00-07:00",
+    "updatedBy": "AGT-000 Dominus Sui"
   },
   "principal": {
     "name": "Brandon Sandoval",
@@ -416,7 +416,7 @@
       "status": "active",
       "machine": "Mini (192.168.0.61)",
       "channel": "telegram + discord",
-      "lastActive": "2026-03-01T21:57:00-07:00",
+      "lastActive": "2026-03-01T22:27:00-07:00",
       "owns": [
         "Strategy",
         "Memory",
@@ -431,7 +431,7 @@
       "status": "active",
       "machine": "Ultra (192.168.0.23)",
       "channel": "telegram + discord",
-      "lastActive": "2026-03-01T02:22:00-07:00",
+      "lastActive": "2026-03-01T18:54:00-07:00",
       "owns": [
         "All builds",
         "Local inference",
